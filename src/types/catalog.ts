@@ -1,3 +1,4 @@
+// Define a lista de categorias que você vai usar
 export const CATEGORIES = [
   "Gastronomia",
   "Saúde",
@@ -10,17 +11,14 @@ export const CATEGORIES = [
   "Landing",
 ] as const;
 
+// Cria um tipo (Type) para as categorias, baseado na lista acima
 export type Category = typeof CATEGORIES[number];
 
-export type TemplateType = "site" | "landing";
-
-export interface Template {
-  id: string;
-  title: string;
+// Define a estrutura de um template
+export type Template = {
+  id: number;
   slug: string;
-  category: Category;
-  type: TemplateType;
-  licensiavel: boolean;
-  sections: string[];
-  thumb: string; // path public
-}
+  title: string;
+  category: Category | "Todos";
+  thumb: string;
+};
