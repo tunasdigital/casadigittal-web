@@ -13,38 +13,38 @@ import service_img_6 from "../../../public/assets/img/icon/s06.png";
     {
         id: 1,
         img: service_img_1,
-        title: "Shared Hosting",
-        sm_des: "ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temp or incididunt ut labore.",
+        title: "Criação de Sites Modernos",
+        sm_des: "Desenvolvemos sites institucionais, blogs e portfólios profissionais, otimizados para SEO e focados em gerar resultados para a sua marca.",
     },
     {
         id: 2,
         img: service_img_2,
-        title: "VPS Hosting",
-        sm_des: "ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temp or incididunt ut labore.",
+        title: "Lojas Virtuais e E-commerce",
+        sm_des: "Criamos lojas virtuais completas e seguras. Da vitrine de produtos ao checkout, seu e-commerce estará pronto para vender 24 horas por dia.",
     },
     {
         id: 3,
         img: service_img_3,
-        title: "Reseller Hosting",
-        sm_des: "ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temp or incididunt ut labore.",
+        title: "Manutenção e Suporte",
+        sm_des: "Garantimos que seu site esteja sempre atualizado, seguro e com performance máxima. Oferecemos suporte técnico para que você não precise se preocupar com nada.",
     },
     {
         id: 4,
         img: service_img_4,
-        title: "Cloud Hosting",
-        sm_des: "ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temp or incididunt ut labore.",
+        title: "Sistemas Web Personalizados",
+        sm_des: "Construímos plataformas e sistemas web que automatizam processos, gerenciam dados e resolvem desafios complexos do seu negócio, de forma eficiente e escalável.",
     },
     {
         id: 5,
         img: service_img_5,
-        title: "Dedicated Hosting",
-        sm_des: "ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temp or incididunt ut labore.",
+        title: "Identidade Visual e Branding",
+        sm_des: "Criamos logotipos, paletas de cores e guias de marca que constroem uma identidade forte e memorável, alinhada com a sua estratégia de negócio.",
     },
     {
         id: 5,
         img: service_img_6,
-        title: "Domain Name",
-        sm_des: "ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temp or incididunt ut labore.",
+        title: "Otimização e Performance (SEO)",
+        sm_des: "Garantimos que seu site seja rápido e bem posicionado nos mecanismos de busca, atraindo mais tráfego orgânico e potencializando suas vendas.",
     },
     
  ]
@@ -52,10 +52,10 @@ import service_img_6 from "../../../public/assets/img/icon/s06.png";
  interface service_content_type {
     title: string;
     sub_title: string;
-}
+ }
  const service_content: service_content_type = {
-    title: "Our Services",
-    sub_title: "Rorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    title: "O que fazemos",
+    sub_title: "Nossas soluções são feitas para o seu negócio crescer, com tecnologia de ponta e design que vende.",
  }
  const {title, sub_title} = service_content
 
@@ -63,7 +63,7 @@ import service_img_6 from "../../../public/assets/img/icon/s06.png";
 const ServicesHomeOne = () => { 
     return (
         <>
-            <section className="services-area pt-115 pb-95">
+            <section className="services-area pt-115 pb-95 bg-gray">
                 <div className="container">
                     <div className="row align-items-center mb-40">
                         <div className="col-xl-6 col-lg-8">
@@ -74,7 +74,7 @@ const ServicesHomeOne = () => {
                         </div>
                         <div className="col-xl-6 col-lg-4">
                             <div className="section-link text-left text-lg-right mb-30">
-                                <a href="#" className="btn btn-soft-border">Learn More</a>
+                                <a href="#" className="btn btn-soft-border">Saiba mais...</a>
                             </div>
                         </div>
                     </div>
@@ -91,7 +91,7 @@ const ServicesHomeOne = () => {
                                         <a className="services-link" href="#"><i className="far fa-chevron-right"></i></a>
                                     </div>
                                 </div>
-                            </div>                        
+                            </div>         
                         )} 
                     </div>
                 </div>

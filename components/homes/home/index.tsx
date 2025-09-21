@@ -1,6 +1,5 @@
 import HeaderOne from "../../layout/headers/header";
 import HeroHomeOne from "./HeroHomeOne";
-import DomainSearch from "./DomainSearchHomeOne";
 import PricingHomeOne from "./PricingHomeOne";
 import ServicesHomeOne from "./ServicesHomeOne";
 import FAQHomeOne from "./FAQHomeOne";
@@ -10,14 +9,20 @@ import NewsFeedHomeOne from "./NewsFeedHomeOne";
 import BrandHomeOne from "./BrandHomeOne";
 import FooterOne from "../../layout/footers/FooterOne";
 
+// Importando o novo componente do catálogo
+import CatalogoHomeOne from "./CatalogoHomeOne";
+
 const HomeOne = () => {
   return (
     <>
       <HeaderOne />
       <main>
         <HeroHomeOne />
-        <DomainSearch />
         <ServicesHomeOne />
+        
+        {/* Adicionando a nova seção do catálogo aqui */}
+        <CatalogoHomeOne />
+
         <PricingHomeOne />
         <FAQHomeOne />
         <ChoseAreaHomeOne />

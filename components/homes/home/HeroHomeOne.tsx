@@ -7,8 +7,8 @@ interface hero_content_type {
 }
 const hero_content: hero_content_type = {
     bg_img: "/assets/img/slider/slide-bg.png",
-    sub_title: "Inclued Every Isometric Illustrations",
-    title: "Domain & Hosting In One Platform",
+    sub_title: "Soluções digitais completas.",
+    title: "Tecnologia e design para o seu negócio",
 }
 const {bg_img, sub_title, title} = hero_content
 
