@@ -20,7 +20,7 @@ const footer_content_2: footer_content_2_type  ={
     footer_data: [
         {
             id: 1,
-            title: "Our Products",
+            title: "Nossos produtos",
             links: [
                 {title: "Shared", link: "#"},
                 {title: "hosting", link: "#"},

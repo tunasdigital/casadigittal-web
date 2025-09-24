@@ -54,9 +54,8 @@ const ChoseAreaHomeOne = () => {
                     <div className="row ">
                         <div className="col-xl-6 offset-xl-3 col-lg-8 offset-lg-2">
                             <div className="section-title text-center mb-70">
-                                <h2>Why Choose Us?</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                    tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <h2>Por que nos escolher?</h2>
+                                <p>Somos especialistas em transformar ideias em código. Com Javascript e Typescript, criamos soluções robustas e escaláveis, garantindo que sua aplicação seja rápida, segura e eficiente. Escolha-nos para levar seu projeto ao próximo nível, com foco em qualidade e inovação.</p>
                             </div>
                         </div>
                     </div>

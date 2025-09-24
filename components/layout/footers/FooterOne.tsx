@@ -15,7 +15,7 @@ interface footer_links_type {
 const footer_links: footer_links_type[] = [
     {
         id: 1,
-        title: "Our Products",
+        title: "Nossos produtos",
         links: [
            { title: "Shared", link: "#"},
            { title: "hosting", link: "#"},
@@ -27,19 +27,19 @@ const footer_links: footer_links_type[] = [
     },
     {
         id: 2,
-        title: "Get Links",
+        title: "Obtenha links",
         links: [
-           { title: "About", link: "/about"},
-           { title: "hosting", link: "/hosting"},
+           { title: "Sobre", link: "/sobre"},
+           { title: "Hospedagem", link: "/hospedagem"},
            { title: "faq", link: "/faq"},
-           { title: "News", link: "/blog"},
-           { title: "News Details", link: "/blog-details"},
-           { title: "Contact", link: "/contact"},
+           { title: "Notícias", link: "/blog"},
+           { title: "Detalhes das notícias", link: "/blog-details"},
+           { title: "Contato", link: "/contato"},
         ]
     },
     {
         id: 3,
-        title: "Our Company",
+        title: "Nossa empresa",
         links: [
            { title: "Chat", link: "#"},
            { title: "Tickets", link: "#"},
@@ -74,7 +74,7 @@ const footer_content: footer_content_type ={
     mail :"info@exampleweb.com",
     phone: "+8987 5675 754 6",
     website: "www.webexample.com",
-    footer_info: "The promotional price is for the first term only and renews.30-Day Money-Back Guarantee does not extend to domain names.",    
+    footer_info: "Sites e sistemas sob medida para você.",    
 
 }
 

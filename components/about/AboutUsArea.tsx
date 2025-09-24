@@ -6,7 +6,7 @@ interface about_content_type {
 }
 
 const about_content: about_content_type = {
-    sub_title: "About Us",
+    sub_title: "Sobre nós",
     title: "Meet With Our Alive Cool Services.",
     title_2: "Meet With Our Alive Cool Services.",
     sm_des: <>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut

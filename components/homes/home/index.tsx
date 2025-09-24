@@ -1,6 +1,5 @@
 import HeaderOne from "../../layout/headers/header";
 import HeroHomeOne from "./HeroHomeOne";
-import PricingHomeOne from "./PricingHomeOne";
 import ServicesHomeOne from "./ServicesHomeOne";
 import FAQHomeOne from "./FAQHomeOne";
 import ChoseAreaHomeOne from "./ChoseAreaHomeOne";
@@ -23,7 +22,7 @@ const HomeOne = () => {
         {/* Adicionando a nova seção do catálogo aqui */}
         <CatalogoHomeOne />
 
-        <PricingHomeOne />
+       
         <FAQHomeOne />
         <ChoseAreaHomeOne />
         <TestimonailHomeOne />

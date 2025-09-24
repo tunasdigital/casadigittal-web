@@ -52,8 +52,8 @@ interface testi_content_type {
   sm_des: string;
 }
 const testi_content: testi_content_type = {
-  title: "Testimonials",
-  sm_des: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  title: "O que falam de nós",
+  sm_des: "Acreditamos que a melhor prova do nosso trabalho vem de quem já usou nossos serviços. Conheça as experiências e os resultados que ajudamos a construir.",
 }
 
 

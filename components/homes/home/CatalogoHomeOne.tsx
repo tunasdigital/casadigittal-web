@@ -155,6 +155,42 @@ const CatalogoHomeOne = () => {
         .catalogo-btn-buy:hover {
           background-color: #2279a3;
         }
+        
+        /* --- Ajustes para Telas Pequenas (Mobile) --- */
+        @media only screen and (max-width: 767px) {
+          .catalogo-section-title h2 {
+            font-size: 28px;
+          }
+          
+          .catalogo-section-title p {
+            font-size: 14px;
+          }
+
+          .catalogo-area {
+            padding: 60px 0 40px;
+          }
+
+          .catalogo-chips {
+            justify-content: center;
+          }
+          
+          .catalogo-chip {
+            padding: 6px 12px;
+            font-size: 13px;
+          }
+          
+          .section-title.catalogo-section-title {
+            text-align: center;
+          }
+
+          .catalogo-card-content h3 {
+            font-size: 18px;
+          }
+          
+          .catalogo-card-content p {
+            font-size: 12px;
+          }
+        }
       `}</style>
       <section className="catalogo-area">
         <div className="container">
@@ -235,6 +271,6 @@ const CatalogoHomeOne = () => {
       </section>
     </>
   );
-  };
+};
 
 export default CatalogoHomeOne;

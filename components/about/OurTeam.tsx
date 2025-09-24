@@ -8,7 +8,7 @@ interface team_content_type {
     sm_des: string;
 }
 const team_content: team_content_type = {
-    title: "Our Team",
+    title: "Nosso time",
     sm_des: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 }
 const { title, sm_des} = team_content
